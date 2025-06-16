@@ -1,0 +1,63 @@
+# Binários compilados (executáveis)
+dns-lookup
+dns-lookup.exe
+command-line
+command-line.exe
+
+# Arquivos de build do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Arquivos de cobertura de testes
+*.out
+coverage.txt
+coverage.html
+
+# Diretórios de dependências
+vendor/
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+
+# Arquivos de profiling do Go
+cpu.prof
+mem.prof
+*.prof
+
+# Diretório de build personalizado (se houver)
+build/
+dist/
+
+# Cache do Go
+go.sum.backup
